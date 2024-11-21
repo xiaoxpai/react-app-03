@@ -1,3 +1,39 @@
+
+
+# 更新日期 2024年11月21日
+
+## react项目，加入组件 NextJs
+
+```bash
+npm install next@latest
+```
+
+## 实现一个基于文件动态路由的sample
+
+![react-nextjs-base-file-router-1.png](document%2Freact-nextjs-base-file-router-1.png)
+ 
+## 实现占位符文件夹动态路由的sample
+
+![react-nextjs-base-file-router.png](document%2Freact-nextjs-base-file-router.png)
+
+## 实现嵌套动态路由的sample
+
+![react-nextjs-nested-router.png](document%2Freact-nextjs-nested-router.png)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
