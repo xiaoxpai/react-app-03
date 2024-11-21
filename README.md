@@ -23,6 +23,13 @@ npm install next@latest
 
 
 
+---
+
+# Next.Js feature
+
+![nextjs-feature.png](document%2Fnextjs-feature.png)
+
+---
 
 
 
