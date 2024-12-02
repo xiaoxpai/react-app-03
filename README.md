@@ -2,7 +2,44 @@
 
 # 工程构建日期 2024年11月21日
 
-## react项目，加入组件 NextJs
+
+## 更新：2024年12月2日
+
+### 想要支持不同的URL格式
+```text
+blog
+    /blog/the-id-of-a-post
+    /blog/2024/12/02/the-id-of-a-post
+    /blog/2024/12
+    
+```    
+
+如何实现呢？
+
+新建文件 `[...slug].js` 
+
+```js
+import {useRouter}   from "next/router";
+
+function BlogPostPage(){
+    const router = useRouter();
+    console.log(router.query);
+    return (
+        <div>
+            <h1>The Blog Posts</h1>
+        </div>
+    );
+}
+export default BlogPostPage;
+```
+
+效果
+
+![useRouter-slug.png](document%2FuseRouter-slug.png)
+
+
+
+## react项目，加入组件 NextJs 2024年11月21日
 
 ```bash
 npm install next@latest
